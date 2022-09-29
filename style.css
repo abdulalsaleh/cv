@@ -1,0 +1,24 @@
+body{
+    background-image: url('photo/bg.jpg');
+}
+@keyframes rubrik{
+    from{color: white;}
+    to{color: black;}
+}
+
+#rubrik {
+    text-align: center;
+    animation-name: rubrik;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+.contact_details{
+    width: 25%;
+    border: 2px black solid;
+    
+}
